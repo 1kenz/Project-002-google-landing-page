@@ -1,5 +1,5 @@
 * {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     font-size: 14px;
     margin: 0px;
     padding: 0px;
@@ -28,10 +28,9 @@ li {
     list-style-type: none;
 }
 
-
-/* .right__appicon:hover {
-    background: url(./images/icon-menu.jpg);
-} */
+.top__appicon {
+    bottom: 8px;
+}
 
 .nav__top--left {
     display: inline-block;
@@ -51,6 +50,10 @@ li {
     margin-left: 10px;
 }
 
+.sign-in {
+    bottom: 8px;
+}
+
 #signin-btn {
     background-color: #0288D1;
     color: white;
@@ -58,6 +61,7 @@ li {
     height: 30px;
     border-radius: 5px;
     font-size: bold;
+    /* bottom: 8px; */
 }
 
 #signin-btn:hover {
