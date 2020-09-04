@@ -108,9 +108,10 @@ li {
 .main__button--form {
     width: 100%;
     text-align: center;
+    overflow: hidden;
 }
 
-.searchbox {
+.main__searchbox--div {
     margin: 0 auto;
     width: 575px;
     height: 50px;
@@ -119,50 +120,47 @@ li {
     outline: none;
 }
 
-.searchbox:hover {
+.main__searchbox--div:hover {
     border: 1px solid #dcdcdc;
     box-shadow: 2px 2px 4px 1px rgb(228, 224, 224);
 }
 
-.searchbox:focus-within {
+.main__searchbox--div:focus-within {
     box-shadow: 1px 1px 8px 1px #dcdcdc;
     outline: none;
 }
 
-.searchbox__items {
+
+/* .searchbox__items {
     padding: 0px;
     margin: 0px;
     height: 0px;
-}
+} */
 
 .searchbox__magnify {
+    height: 30px;
+    width: 30px;
     position: relative;
-    display: inline-block;
-    float: inline-start;
-    width: 40px;
-    height: 40px;
-    right: 235px;
-    bottom: 45px;
-    overflow: hidden;
+    top: 10px;
+    right: 475px;
 }
 
 .searchbox__microphone {
+    height: 20px;
     position: relative;
-    display: inline-block;
-    width: 25px;
-    height: 25px;
-    float: inline-end;
-    left: 230px;
-    bottom: 53px;
-    overflow: hidden;
+    top: 5px;
+    left: 10px;
 }
 
 #searchbox {
     height: 50px;
     border: none;
-    width: 450px;
+    padding: 0 30px;
+    width: 460px;
+    margin: 0 auto;
     font-size: 16px;
     outline: none;
+    text-align: left;
 }
 
 .main__btn {
