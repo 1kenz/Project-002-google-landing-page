@@ -5,86 +5,91 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
     <link rel="icon" href="./images/gfavicon.png" type="image/x-icon" />
+
 </head>
 
 <body>
     <header>
-        <div class="header">
-            <div class="header-left">
+        <div class="header__container">
 
-                <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjmrPjolMnrAhUOr4sKHRvtA1cQFjABegQIFBAB&url=https%3A%2F%2Fabout.google%2F&usg=AOvVaw2QXdibYwGQlf5I-g_eBlzp" id="about">About</a>
+            <nav class="nav__top">
+                <ul class="nav__top--left">
+                    <li class="nav__top--left"><a href="https://about.google.com" id="about">About</a></li>
+                    <li class="nav__top--left"><a href="https://store.google.com" id="store">Store</a></li>
+                </ul>
 
-                <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwil_rH2lMnrAhWSlosKHbwbCF4QFjAFegQIFBAB&url=https%3A%2F%2Fstore.google.com%2F&usg=AOvVaw0JKNCJ2lcIb7H2LDLizew0" id="store">Store</a>
-            </div>
+                <ul class="nav__top--right">
+                    <li class="nav__top--right sign-in">
+                        <a href="https://accounts.google.com/login"> <button type="submit" id="signin-btn">Sign in</button> </a>
+                    </li>
+                    <li class="nav__top--right top__appicon">
+                        <a href="https://gsuite.google.com">
+                            <img src="./images/appicon.png" alt="appicon" class="right__appicon">
+                        </a>
+                    </li>
+                    <li class="nav__top--right"><a href="https://www.google.com.tr/imghp?hl=en&tab=wi&authuser=0&ogbl">Images</a></li>
+                    <li class="nav__top--right"><a href="https://mail.google.com/mail/?tab=wm&authuser=0&ogbl">Gmail</a></li>
 
-            <div class="header-right">
-                <a href="https://mail.google.com/mail/?tab=wm&ogbl" id="gmail">Gmail</a>
+                </ul>
+            </nav>
 
-                <a href="https://www.google.com.tr/imghp?hl=en&tab=wi&ogbl" id="images">Images</a>
-
-                <a href="https://www.google.com.tr/intl/en/about/products?tab=wh" id="appicon"><img src="./images/appicon.png" alt="appicon" id="appicon__btn"></a>
-
-                <a href="https://accounts.google.com/SignOutOptions?hl=en&continue=https://www.google.com/webhp%3Fhl%3Den%26sa%3DX%26ved%3D0ahUKEwjEyfCtksnrAhXOl4sKHUQrBOQQPAgI" id="signin__btn"><button type="submit" value="Sign-in" id="signin-btn">Sign in</button></a>
-            </div>
 
         </div>
     </header>
 
     <main>
-        <section>
 
-            <div class="google">
-                <a href="https://google.com" class="google__logo"><img src="./images/googlelogo.png" alt="google-logo"></a>
+        <section class="main__banner">
+            <a href="https://www.google.com/"> <img src="./images/googlelogo.png" alt="google-logo" class="main__banner--img"> </a>
+        </section>
+        <section class="main__searchbox">
+            <div class="main__searchbox--div">
+                <div class="searchbox">
+                    <input type="search" name="search-box" id="searchbox"> </div>
+                <div class="searchbox__items">
+                    <a href="#" id="a__searchbox"><img src="./images/magnifying_glass.jpg" alt="magnify" class="searchbox__magnify"></a>
+                    <a href="https://support.google.com/chrome/?p\x3dui_voice_search" id="a__searchbox"><img src="./images/google_microphone.png" alt="microphone" class="searchbox__microphone"></a>
+                </div>
             </div>
-            <div class="google__searchbox">
-                <input type="search" name="search-box">
-                <!-- <button type="submit"><img src="./images/magnifying_glass.jpg" alt="mic" width="5%"></button> -->
+            <div class="main__btn">
+                <form action="http://www.google.com/search?q=Google+tutorial+create+link" class="main__btn--form">
+                    <button type="submit" class="button__search">Google Search</button>
+                    <button type="submit" class="button__search">I'm Feeling Lucky</button>
+                </form>
             </div>
 
-            <div>
-                <button type="submit">Google Search</button>
-                <button type="submit">I'm Feeling Lucky</button>
+            <div class="main__language">
+                <p>Other Languages you can Google: <a href="https://www.google.com/setprefs?sig=0_u-_T1j_5eMLzgAo6e3wi4lwFmBk%3D&hl=tr&source=homepage&sa=X&ved=0ahUKEwjfkpuPtc7rAhUEBWMBHaS1BrYQ2ZgBCA8" class="language">English</a></p>
             </div>
-
-            <div>
-                <p>Other Languages you can Google: <a href="https://www.google.com/setprefs?sig=0_NuqNGrBJPF-4sBwVc5WxpAS_97E%3D&hl=tr&source=homepage&sa=X&ved=0ahUKEwjHsIjZksnrAhUDzoUKHZrrAjUQ2ZgBCA4">English</a></p>
-            </div>
-
         </section>
 
     </main>
 
     <footer>
-        <div class="top">
-            <p>Turkey</p>
-        </div>
-        <div class="bottom">
-            <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjHsIjZksnrAhUDzoUKHZrrAjUQkdQCCBU&url=https%3A%2F%2Fwww.google.com%2Fintl%2Fen_tr%2Fads%2F%3Fsubid%3Dww-ww-et-g-awa-a-g_hpafoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpafooter%26fg%3D1&usg=AOvVaw3_X263M5bJUa0ZkLF0jfI8"
-                class="bottom" id="left">Advertising</a>
+        <nav class="nav__bottom">
+            <div class="nav__bottom--top">
+                <p>Turkey</p>
+            </div>
 
-            <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjHsIjZksnrAhUDzoUKHZrrAjUQktQCCBY&url=https%3A%2F%2Fwww.google.com%2Fservices%2F%3Fsubid%3Dww-ww-et-g-awa-a-g_hpbfoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpbfooter%26fg%3D1&usg=AOvVaw2SJ4zwRVXKyZr53qG9dm4K"
-                class="bottom" id="left">Business</a>
+            <div class="nav__bottom2">
 
-            <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjHsIjZksnrAhUDzoUKHZrrAjUQkNQCCBc&url=https%3A%2F%2Fabout.google%2F%3Futm_source%3Dgoogle-TR%26utm_medium%3Dreferral%26utm_campaign%3Dhp-footer%26fg%3D1&usg=AOvVaw2wCW9oJzvsNy5TI40Vv7gd"
-                class="bottom" id="left">About</a>
+                <ul class="nav__bottom--left">
+                    <li class="nav__bottom--left"><a href="https://www.google.com/intl/en_tr/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a></li>
+                    <li class="nav__bottom--left"><a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a></li>
+                    <li class="nav__bottom--left"><a href="https://about.google/?utm_source=google-TR&utm_medium=referral&utm_campaign=hp-footer&fg=1">How Search Works</a></li>
+                </ul>
 
-            <a href="https://google.com/search/
-                howsearchworks/?fg=1" class="bottom" id="left">How Search Works</a>
+                <ul class="nav__bottom--right">
+                    <li class="nav__bottom--right"><a href="https://www.google.com/preferences?hl=en">Settings</a></li>
+                    <li class="nav__bottom--right"><a href="https://policies.google.com/terms?hl=en-TR&fg=1">Terms</a></li>
+                    <li class="nav__bottom--right"><a href="https://policies.google.com/privacy?hl=en-TR&fg=1">Privacy</a></li>
+                </ul>
 
-            <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjHsIjZksnrAhUDzoUKHZrrAjUQ8awCCBE&url=https%3A%2F%2Fpolicies.google.com%2Fprivacy%3Fhl%3Den-TR%26fg%3D1&usg=AOvVaw3XThzlWwAcvFUXORIQy_Fy" class="bottom"
-                id="right">Privacy</a>
-
-            <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjHsIjZksnrAhUDzoUKHZrrAjUQ8qwCCBI&url=https%3A%2F%2Fpolicies.google.com%2Fterms%3Fhl%3Den-TR%26fg%3D1&usg=AOvVaw1MzHSxGkWJQTLXpXEYB4SL" class="bottom"
-                id="right">Terms</a>
-
-            <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjHsIjZksnrAhUDzoUKHZrrAjUQzq0CCBM&url=https%3A%2F%2Fwww.google.com%2Fpreferences%3Fhl%3Den&usg=AOvVaw0XvhSqpc_GFt9aG_mRLp1F" class="bottom" id="right">Settings</a>
-
-        </div>
+            </div>
+        </nav>
     </footer>
-
-
 </body>
 
 </html>
