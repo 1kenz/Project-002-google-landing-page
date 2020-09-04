@@ -12,27 +12,31 @@
 
 <body>
     <header>
-        <nav class="nav__top">
-            <ul class="nav__top--left">
-                <li class="nav__top--left"><a href="#" id="about">About</a></li>
-                <li class="nav__top--left"><a href="#" id="store">Store</a></li>
-            </ul>
+        <div class="header__container">
 
-            <ul class="nav__top--right">
-                <li class="nav__top--right sign-in">
-                    <a href="#"> <button type="submit" id="signin-btn">Sign in</button> </a>
-                </li>
-                <li class="nav__top--right top__appicon">
-                    <a href="#">
-                        <img src="./images/appicon.png" alt="appicon" class="right__appicon">
-                    </a>
-                </li>
-                <li class="nav__top--right"><a href="#">Images</a></li>
-                <li class="nav__top--right"><a href="#">Gmail</a></li>
+            <nav class="nav__top">
+                <ul class="nav__top--left">
+                    <li class="nav__top--left"><a href="#" id="about">About</a></li>
+                    <li class="nav__top--left"><a href="#" id="store">Store</a></li>
+                </ul>
 
-            </ul>
-        </nav>
+                <ul class="nav__top--right">
+                    <li class="nav__top--right sign-in">
+                        <a href="#"> <button type="submit" id="signin-btn">Sign in</button> </a>
+                    </li>
+                    <li class="nav__top--right top__appicon">
+                        <a href="#">
+                            <img src="./images/appicon.png" alt="appicon" class="right__appicon">
+                        </a>
+                    </li>
+                    <li class="nav__top--right"><a href="#">Images</a></li>
+                    <li class="nav__top--right"><a href="#">Gmail</a></li>
 
+                </ul>
+            </nav>
+
+
+        </div>
     </header>
 
     <main>
@@ -42,7 +46,7 @@
         </section>
         <section class="main__searchbox">
             <div class="main__searchbox--div">
-                <div class="searcbox">
+                <div class="searchbox">
                     <input type="search" name="search-box" id="searchbox"> </div>
                 <div class="searchbox__items">
                     <a href="#" id="a__searchbox"><img src="./images/magnifying_glass.jpg" alt="magnify" class="searchbox__magnify"></a>
@@ -57,32 +61,34 @@
             </div>
 
             <div class="main__language">
-                <p>Other Languages you can Google: <a href="#">English</a></p>
+                <p>Other Languages you can Google: <a href="#" class="language">English</a></p>
             </div>
         </section>
 
     </main>
+
     <footer>
-        <div class="nav__bottom--top">
-            <p>Turkey</p>
-        </div>
+        <nav class="nav__bottom">
+            <div class="nav__bottom--top">
+                <p>Turkey</p>
+            </div>
 
-        <div class="nav__bottom">
+            <div class="nav__bottom2">
 
-            <ul class="nav__bottom--left">
-                <li><a href="#" class="nav__bottom--left">Advertising</a></li>
-                <li><a href="#" class="nav__bottom--left">Business</a></li>
-                <li><a href="#" class="nav__bottom--left" id="left">How Search Works</a></li>
+                <ul class="nav__bottom--left">
+                    <li class="nav__bottom--left"><a href="#">Advertising</a></li>
+                    <li class="nav__bottom--left"><a href="#">Business</a></li>
+                    <li class="nav__bottom--left"><a href="#">How Search Works</a></li>
+                </ul>
 
-            </ul>
+                <ul class="nav__bottom--right">
+                    <li class="nav__bottom--right"><a href="#">Settings</a></li>
+                    <li class="nav__bottom--right"><a href="#">Terms</a></li>
+                    <li class="nav__bottom--right"><a href="#">Privacy</a></li>
+                </ul>
 
-            <ul class="nav__bottom--right">
-                <li><a href="#" class="nav__bottom--right">Privacy</a></li>
-                <li><a href="#" class="nav__bottom--right">Terms</a></li>
-                <li><a href="#" class="nav__bottom--right">Settings</a></li>
-            </ul>
-
-        </div>
+            </div>
+        </nav>
     </footer>
 </body>
 
