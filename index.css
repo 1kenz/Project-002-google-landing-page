@@ -90,21 +90,17 @@ li {
 
 .main__banner--img {
     display: block;
-    /* padding: 5px; */
     margin: 130px auto 15px;
 }
 
 .main_button {
     position: relative;
-    /* align-items: center; */
-    /* justify-items: center; */
 }
 
 .main__searchbox--div,
 .main__button--form {
     width: 100%;
     text-align: center;
-    /* overflow: hidden; */
 }
 
 .main__searchbox--div {
@@ -149,7 +145,6 @@ li {
     font-size: 16px;
     outline: none;
     text-align: left;
-    /* overflow: hidden; */
 }
 
 .main__btn {
@@ -160,7 +155,6 @@ li {
     padding: 30px;
     margin: auto;
     height: 40px;
-    /* justify-content: center; */
     text-align: center;
 }
 
@@ -176,7 +170,6 @@ li {
 }
 
 .main__language {
-    /* justify-content: center; */
     text-align: center;
 }
 
@@ -198,8 +191,6 @@ li {
 .nav__bottom--left {
     display: inline-block;
     float: left;
-    /* text-align: center; */
-    /* align-content: center; */
     padding: 0;
     margin: 5px 10px;
     align-content: flex;
