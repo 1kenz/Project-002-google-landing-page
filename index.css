@@ -1,5 +1,4 @@
 * {
-    /* border: 2px solid red; */
     font-size: 13px;
     margin: 0px;
     padding: 0px;
@@ -36,7 +35,7 @@ ul a {
 }
 
 .main__language p {
-    color: #000;
+    color: #000000;
 }
 
 a:link {
