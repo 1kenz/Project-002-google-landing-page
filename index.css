@@ -1,8 +1,9 @@
 * {
     font-size: 13px;
-    margin: 0px;
-    padding: 0px;
+    margin: 1px;
+    padding: 1px;
     box-sizing: border-box;
+    /* border: 1px solid red; */
 }
 
 body,
@@ -13,7 +14,7 @@ h2,
 a {
     font-family: Arial, Helvetica, sans-serif;
     color: rgba(0, 0, 0, .54);
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 ul {
@@ -59,21 +60,23 @@ li {
     display: inline-block;
     float: left;
     position: relative;
-    padding: 0;
+    padding: 10;
 }
 
 .nav__top--right {
     display: inline-block;
     float: right;
     position: relative;
-    padding: 0;
+    padding: 10;
 }
 
-.clearfix:after {
+
+/* .clearfix:after {
     content: "";
     display: block;
     clear: both;
-}
+    font-size: 1px;
+} */
 
 .top__appicon {
     bottom: 8px;
@@ -98,7 +101,8 @@ li {
     height: 30px;
     border: none;
     border-radius: 3px;
-    margin-right: 10px;
+    margin: 1px 10px 0;
+    overflow: hidden;
 }
 
 #signin-btn:active {
@@ -116,7 +120,7 @@ li {
     display: block;
     height: 92px;
     width: 272px;
-    margin: 145px auto 0;
+    margin: 109px auto 0;
 }
 
 .main_button {
